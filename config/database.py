@@ -21,7 +21,7 @@ They can be named whatever you want.
 """
 
 DATABASES = {
-    "default": "postgres",
+    "default": "sqlite",
     "mysql": {
         "driver": "mysql",
         "host": env("MYSQL_DATABASE_HOST"),
