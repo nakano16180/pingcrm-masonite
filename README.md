@@ -72,7 +72,7 @@ python craft migrate
 Run database seeder:
 
 ```sh
-python craft seed:run
+python craft seed:run user
 ```
 
 Run the dev server (the output will give the address):

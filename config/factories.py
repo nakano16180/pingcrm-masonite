@@ -13,7 +13,7 @@ def get_random_string(length):
     return result_str
 
 
-def user_factory(self, faker):
+def user_factory(faker):
     return {
         "first_name": faker.first_name(),
         "last_name": faker.last_name(),
@@ -25,7 +25,7 @@ def user_factory(self, faker):
     }
 
 
-def organization_factory(self, faker):
+def organization_factory(faker):
     return {
         "name": faker.name(),
         "email": faker.email(),
@@ -38,7 +38,7 @@ def organization_factory(self, faker):
     }
 
 
-def contact_factory(self, faker):
+def contact_factory(faker):
     return {
         "first_name": faker.first_name(),
         "last_name": faker.last_name(),
